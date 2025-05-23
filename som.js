@@ -8,6 +8,9 @@ let Callme=()=>{
      mytag.innerHTML="<p>Hello World</p>"
      let mytag2=document.querySelector("#content")
        mytag2.innerHTML="fall back to save zone"
+       mytag.style.backgroundColor="red"
+       mytag.style.color="white"
+       
 
        
 
@@ -15,7 +18,36 @@ let Callme=()=>{
     //document.write("hello")
 }
 
+let red=()=>{
+
+let name =document.querySelector(".box")
+name.style.backgroundColor="red"
+
+
+}
+
+let yellow=()=>
+{
+  let name=document.querySelector(".box")
+  name.style.backgroundColor="yellow"
+
+
+}
   
+let green=()=>
+{
+  let name=document.querySelector(".box")
+  name.style.backgroundColor="green"
+
+  
+}
+let purple=()=>{
+
+  let name=document.querySelector(".box")
+//  name.style.color="purple"
+  name.style.border="purple"
+  name.style.backgroundColor="purple"
+}
 
 
     
