@@ -19,7 +19,7 @@
   //  }
  let num =[4,5,3,6,3]
 
- let newnum
+ let newgit 
 
 
     
